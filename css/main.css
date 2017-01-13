@@ -10,7 +10,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font: normal 100%, sans-serif;
   line-height: 1.3;
 }
 
@@ -21,15 +20,31 @@ html {
 body {
   background-color: #e2e2e2;
   font-family: sans-serif;
+  margin: 0;
 }
+
+section {
+   margin-left: 1rem;
+ }
+
+h3 {
+   margin-bottom: 0;
+}
+
+p {
+   margin-top: 0;
+}
+
 .img-flex {
   width: 100%;
+  margin-top: 2rem;
 }
 
 .btn {
   background-color: #555;
   color: white;
   padding: 0.5em 0.75em;
+  border-radius: 4px;
 }
 
 @media only screen and (min-width: 25em) {
@@ -38,23 +53,33 @@ body {
     font: 100%;
     line-height: 1.3;
   }
-
+}
 @media only screen and (min-width: 38em) {
 
   html {
     font: 110%;
     line-height: 1.4;
   }
-
+}
 @media only screen and (min-width: 60em) {
 
   html {
     font: 120%;
     line-height: 1.5;
   }
+
+  section {
+    float: left;
+  }
+
+  .img-flex{
+    float: left;
+  }
+}
 @media only screen and (min-width: 90em) {
 
   html {
     font: 130%;
     line-height: 1.5;
   }
+}
