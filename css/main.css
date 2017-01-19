@@ -45,6 +45,7 @@ p {
   color: white;
   padding: 0.5em 0.75em;
   border-radius: 4px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 25em) {
@@ -81,6 +82,10 @@ p {
     line-height: 1.5;
   }
 
+  .btn {
+    vertical-align: middle;
+  }
+
   section {
     display: inline-block;
   }
@@ -96,7 +101,4 @@ p {
     line-height: 1.5;
   }
 
-  section {
-    text-align: middle;
-  }
 }
