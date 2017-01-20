@@ -27,14 +27,22 @@ section {
   margin-left: 1rem;
 }
 
+.text {
+  padding-left: 1rem;
+}
+
 section, h1 {
   padding: 1rem;
   padding-bottom: 0;
+  padding-left: 0;
   margin: 0;
+  padding-top: .5rem;
 }
 
-h3 {
+h2 {
   margin-bottom: 0;
+  font-size: 1rem;
+  margin-top: 2rem;
 }
 
 p {
@@ -43,7 +51,7 @@ p {
 
 .img-flex {
   width: 100%;
-  margin-top: 0;
+  margin-top: 1rem;
   display: block;
 }
 
@@ -75,14 +83,20 @@ a:hover {
     line-height: 1.4;
   }
 
-  .img-flex {
+  .img-holder {
     display: inline-block;
-    max-width: 50%;
+    width: 48%;
+    max-width: 25em;
+  }
+
+  .text {
+    display: inline-block;
+    width: 48%;
+    max-width: 25em;
   }
 
   section {
     display: inline-block;
-    max-width: 48%;
     padding-top: 1rem;
     text-align: left;
   }
@@ -121,10 +135,6 @@ a:hover {
 
   html {
     font-size: 130%;
-  }
-
-  .img-flex {
-    width: 40%;
   }
 
 }
